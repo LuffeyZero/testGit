@@ -1,0 +1,5 @@
+package springcloud.zuul.filter;
+
+public class MyFilter {
+
+}

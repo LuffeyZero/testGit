@@ -1,0 +1,31 @@
+package springcloud.zuul.filter;
+
+import org.apache.http.protocol.RequestContent;
+import org.springframework.stereotype.Component;
+
+import com.netflix.zuul.ZuulFilter;
+@Component
+public class MyFilter extends ZuulFilter {
+
+	@Override
+	public Object run() {
+		RequestContent.getCurrentContext();
+		return null;
+	}
+
+	@Override
+	public boolean shouldFilter() {
+		return false;
+	}
+
+	@Override
+	public int filterOrder() {
+		return 0;
+	}
+
+	@Override
+	public String filterType() {
+		return null;
+	}
+
+}

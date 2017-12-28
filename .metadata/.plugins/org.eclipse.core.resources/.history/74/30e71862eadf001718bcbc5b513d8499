@@ -1,0 +1,15 @@
+package com.sringcloud.provider.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProviderController {
+	
+	@RequestMapping(value="/hello",method=RequestMethod.GET)
+	public String providerController(){
+		return "test provider:hello world ";
+	}
+}

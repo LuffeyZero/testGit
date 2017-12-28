@@ -1,0 +1,31 @@
+package com.feign.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.feign.pojo.User;
+import com.feign.service.HelloService;
+
+@RestController
+public class ConsumerController {
+	@Autowired
+	private HelloService helloService;
+	
+	@RequestMapping(value="/feign-consumer",method=RequestMethod.GET)
+	public String helloConsumer(){
+		return helloService.hello();
+	}
+	
+	@RequestMapping(value="/feign-consumer2",method=RequestMethod.GET)
+	public String helloConsumer2(){
+		StringBuilder builder=new StringBuilder();
+		builder.append(helloService.hello()).append("\n");
+		builder.append(helloService.hello("DIDI")).append("\n");
+		builder.append(helloService.hello("DIDI",30)).append("\n");
+		builder.append(helloService.hello(new User("DIDI", 30))).append("\n");
+		return helloService.hello();
+	}
+	
+}

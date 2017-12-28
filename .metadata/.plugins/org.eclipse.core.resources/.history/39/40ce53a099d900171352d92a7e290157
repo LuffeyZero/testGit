@@ -1,0 +1,5 @@
+package com.springcloud.service.feign.service.impl;
+
+public class FeignSchedualServiceHiHystric {
+
+}

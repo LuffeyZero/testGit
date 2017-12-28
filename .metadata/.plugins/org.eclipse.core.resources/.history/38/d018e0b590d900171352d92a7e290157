@@ -1,0 +1,5 @@
+package com.springcloud.service.feign.service;
+
+public class FeignScheduleService {
+
+}

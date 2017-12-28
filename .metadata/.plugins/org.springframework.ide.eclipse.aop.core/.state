@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springboot.first"/>
+<aop-project name="springcloud.zipkin.server.1"/>
+<aop-project name="springcloud.zipkin.gateway.zuul.server.4"/>
+<aop-project name="springcloud.docker.server.service.4"/>
+<aop-project name="springcloud.zipkin.user.server.3"/>
+<aop-project name="springcloud.server.ribbon"/>
+<aop-project name="springcloud.zipkin.sleuth.server.2"/>
+<aop-project name="springcloud.eureka.server"/>
+<aop-project name="springcloud.service.provider"/>
+</aop-reference-model>

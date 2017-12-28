@@ -1,0 +1,13 @@
+package com.springcloud.server;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@EnableEurekaServer//启动注册服务中心
+@SpringBootApplication//开启springboot应用
+public class Application {
+	//启动springboot
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+}

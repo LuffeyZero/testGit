@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.feign.pojo&apos; to &apos;springcloud.serverprovider/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Feign.test&apos;&#x0D;&#x0A;- Destination element: &apos;springcloud.serverprovider/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Feign.test/src/main/java/com.feign.pojo&apos;" description="Copy package" destination="=springcloud.serverprovider/src\/main\/java" element1="/src\/main\/java&lt;com.feign.pojo" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1512702472680" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.feign.pojo;
+
+public class User {
+
+}

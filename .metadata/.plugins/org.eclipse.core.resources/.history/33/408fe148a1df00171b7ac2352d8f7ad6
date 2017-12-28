@@ -1,0 +1,5 @@
+package springcloud.eureka.server;
+@
+public class Application {
+
+}

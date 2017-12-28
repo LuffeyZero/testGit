@@ -1,0 +1,55 @@
+package com.springcloud.serverprovider;
+
+import org.apache.catalina.startup.HomesUserDatabase;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.feign.pojo.User;
+
+@EnableEurekaClient
+@RestController
+@SpringBootApplication
+public class ConnectionController {
+	//服务类信息
+	public static void main(String[] args) {
+		SpringApplication.run(ConnectionController.class, args);
+	}
+	//注入端口
+	@Value("${server.port}")
+	String port;
+	/**
+	 * 测试连接
+	 * @param name
+	 * @return
+	 */
+/*	@RequestMapping("/hi")
+	public String home(@RequestParam String name) {
+		System.out.println("建立连接："+name);
+		System.out.println("端口号："+port);
+		return "hi "+name+",i am from port:" +port;
+	}*/
+	@RequestMapping("/hi")
+	public String Homes(){
+		return "connection actually";
+	}
+	@RequestMapping(value="/hello1",method=RequestMethod.GET)
+	public String hello(@RequestParam String name){
+		return "hello"+name;
+	}
+	@RequestMapping(value="/hello2",method=RequestMethod.GET)
+	public String hello(@RequestHeader String name,@RequestHeader Integer age){
+		return "hello"+new User(name,age);
+	}
+	@RequestMapping(value="/hello3",method=RequestMethod.GET)
+	public String hello(@RequestBody User user){
+		return "hello"+user.getName()+","+user.getAge();
+	}
+}

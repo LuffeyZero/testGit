@@ -1,0 +1,16 @@
+package com.zipkin.application;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+
+@SpringBootApplication
+@EnableEurekaClient //开启客户端
+@EnableZuulProxy //开启zuul路由代理
+public class ZipkinUserServerApplication {
+	//开启zipkin服务能力
+	public static void main(String[] args) {
+		 SpringApplication.run(ZipkinUserServerApplication.class, args);
+	}
+}

@@ -1,0 +1,5 @@
+package eureka.server.application;
+
+public class EurekaServerApplication {
+
+}

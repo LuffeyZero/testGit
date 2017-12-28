@@ -1,0 +1,14 @@
+package com.spring.service.ribbon.service;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class TestRibbonService {
+	//注入模板
+	@Resource
+	RestTemplate template;
+	
+}

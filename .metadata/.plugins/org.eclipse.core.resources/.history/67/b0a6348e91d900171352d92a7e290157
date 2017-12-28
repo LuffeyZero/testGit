@@ -1,0 +1,5 @@
+package com.springcloud.service.feign.controller;
+
+public class FeignController {
+
+}

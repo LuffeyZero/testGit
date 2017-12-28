@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="zipkin-server"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="zipkin-server"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item value="480" key="width"/>
+		<item value="783" key="x"/>
+		<item value="202" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\SpringCloudLearning-master\SpringCloudLearning-master\chapter3"/>
+			<item value="D:\SpringCloudLearning-master\SpringCloudLearning-master\chapter2"/>
+			<item value="D:\SpringCloudLearning-master\SpringCloudLearning-master\chapter1"/>
+			<item value="C:\Users\F21\Desktop\GETUI_JAVA_SDK\GETUI_JAVA_SDK"/>
+			<item value="C:\Users\F21\Desktop\GETUI_JAVA_SDK\GETUI_JAVA_SDK\GETUI_JAVA_SDK\test"/>
+			<item value="C:\Users\F21\Desktop\Verify-master\Verify-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="zipkin-server"/>
+			<item value="springcloud"/>
+			<item value="com.springcloud"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="org.zipkin.server"/>
+		</list>
+		<list key="groupId">
+			<item value="zipkin-server"/>
+		</list>
+		<list key="artifactId">
+			<item value="zipkin-server"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Test\springcloud.service.provider\src\main\resources\application.properties"/>
+			<item value="E:\Test\springcloud.eureka.server"/>
+			<item value="E:\Test\springboot.first"/>
+			<item value="E:\Test\springcloud.zuul"/>
+			<item value="E:\Test\springcloud.service.feign\pom.xml"/>
+			<item value="E:\Test\springcloud.service.feign"/>
+			<item value="E:\Test\springcloud.serverprovider"/>
+			<item value="C:\Users\F21\Desktop\GETUI_JAVA_SDK\GETUI_JAVA_SDK\GETUI_JAVA_SDK\test\src\main\java\com\getui\java\pushmessage\PushList.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,5 @@
+package com.feign.consumerApplication;
+
+public class ConsumerApplication {
+
+}

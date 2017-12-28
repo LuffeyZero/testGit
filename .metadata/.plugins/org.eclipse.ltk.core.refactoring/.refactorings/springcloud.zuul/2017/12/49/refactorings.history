@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;parameter&apos; from expression &apos;request.getParameter(&quot;token&quot;)&apos;&#x0D;&#x0A;- Original project: &apos;springcloud.zuul&apos;&#x0D;&#x0A;- Variable name: &apos;parameter&apos;&#x0D;&#x0A;- Destination method: &apos;springcloud.zuul.filter.MyFilter.run()&apos;&#x0D;&#x0A;- Variable expression: &apos;request.getParameter(&quot;token&quot;)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;parameter&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;springcloud.zuul.filter{MyFilter.java" name="parameter" replace="true" selection="575 0" stamp="1512467609556" version="1.0"/>
+</session>

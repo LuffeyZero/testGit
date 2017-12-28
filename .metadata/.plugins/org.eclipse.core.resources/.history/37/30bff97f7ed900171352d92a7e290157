@@ -1,0 +1,9 @@
+package com.springcloud.serverprovider;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConnectionController {
+	//服务类信息
+	
+}

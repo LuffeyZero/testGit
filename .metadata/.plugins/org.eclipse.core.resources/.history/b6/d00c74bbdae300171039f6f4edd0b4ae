@@ -1,0 +1,15 @@
+#注册中心端口
+server:
+  port: 1111
+#注册中心ip
+eureka:
+  instance:
+    hostname: localhost
+#由于该微服务是注册中心，不向注册中心注册自己
+  client:
+    register-withEureka: false
+#由于注册中心的职责是注册服务，维护服务实例，并不需要检索服务
+    fetch-registry: false
+#默认zone
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

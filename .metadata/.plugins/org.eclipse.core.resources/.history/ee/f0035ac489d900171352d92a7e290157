@@ -1,0 +1,5 @@
+package com.spring.service.ribbon.controller;
+
+public class TestRibbonController {
+
+}

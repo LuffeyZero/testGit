@@ -1,0 +1,5 @@
+package com.zipkin.application;
+
+public class ZipkinServerApplication {
+
+}

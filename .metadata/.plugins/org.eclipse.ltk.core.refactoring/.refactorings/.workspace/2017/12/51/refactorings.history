@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/springcloud.zipkin.service.hi.server.2" element2="/springcloud.zipkin.service.miya.server.3" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1513588958689"/>&#x0A;<refactoring comment="Delete resource &apos;_pasted_code_&apos;" deleteContents="true" description="Delete resource &apos;_pasted_code_&apos;" element1="/_pasted_code_" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1513590856670"/>
+</session>

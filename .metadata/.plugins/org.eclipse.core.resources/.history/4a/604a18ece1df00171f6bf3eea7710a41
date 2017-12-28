@@ -1,0 +1,16 @@
+package com.springcloud.provider.application;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@SpringBootApplication
+@EnableEurekaClient
+public class ProviderApplication {
+	
+	@RequestMapping(name="/hello",method=RequestMethod.GET)
+	public String prooviderController(){
+		
+	}
+}

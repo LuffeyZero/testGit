@@ -1,0 +1,5 @@
+package springcloud.zuul.application;
+
+public class ServiceZuulApplication {
+
+}

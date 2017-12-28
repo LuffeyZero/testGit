@@ -1,0 +1,3 @@
+server:
+  port: 9411
+ #表明zipkin的服务端口是9411

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;bootstrap.yml&apos; to &apos;springcloud.serverprovider/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;chapter1&apos;&#x0D;&#x0A;- Destination element: &apos;springcloud.serverprovider/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;bootstrap.yml&apos;" description="Copy file" destination="=springcloud.serverprovider/src\/main\/resources" element1="service-hi/src/main/resources/bootstrap.yml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1512452772649" units="0" version="1.0"/>
+</session>

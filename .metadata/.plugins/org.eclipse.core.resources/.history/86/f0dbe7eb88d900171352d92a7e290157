@@ -1,0 +1,23 @@
+package com.spring.service.ribbon;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.web.client.RestTemplate;
+@SpringBootApplication
+@EnableEurekaClient
+public class ServiceRibbonApplication {
+	/**
+	 * 启动方法
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceRibbonApplication.class, args);
+	}
+	/**
+	 * 注入模板
+	 */
+	public RestTemplate restTemplate(){
+		return new RestTemplate();
+	}
+}

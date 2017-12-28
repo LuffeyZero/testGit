@@ -1,0 +1,9 @@
+package com.feign.pojo;
+/**
+ * 用户测试类
+ * @author liguang
+ *
+ */
+public class User {
+
+}

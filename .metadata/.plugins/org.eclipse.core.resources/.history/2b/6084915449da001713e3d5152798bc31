@@ -1,0 +1,5 @@
+package springcloud.config.server.application;
+
+public class ConfigServerApplication {
+
+}

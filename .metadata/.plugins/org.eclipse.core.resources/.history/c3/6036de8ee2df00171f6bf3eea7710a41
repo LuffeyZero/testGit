@@ -1,0 +1,5 @@
+package com.sringcloud.provider.controller;
+
+public class ProviderController {
+
+}

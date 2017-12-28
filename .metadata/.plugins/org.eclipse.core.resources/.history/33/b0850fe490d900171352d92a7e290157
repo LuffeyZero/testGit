@@ -1,0 +1,8 @@
+package com.springcloud.service.feign.service;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+@FeignClient(value="service-hello")
+public class FeignScheduleService {
+	
+}
